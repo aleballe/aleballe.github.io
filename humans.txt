@@ -1,0 +1,31 @@
+---
+---
+
+/* TEAM */
+        Web developer: {{ site.name }}
+        Contact: {{ site.email }}
+
+
+/* THANKS */
+        School: Linnaeus University
+        Website: https://lnu.se/en/
+
+        Johan
+        - Teacher at Linnaeus University
+
+        John
+        - Teacher at Linnaeus University
+
+        Mats
+        - Teacher at Linnaeus University
+
+        Jacob
+        - Teacher at Linnaeus University
+
+        Pictures for site: https://pixabay.com
+        Licence: CC0 Public Domain
+
+
+/* SITE */
+        Launched: 2016-11-18
+        Last update: {{ site.time | date: '%F' }}

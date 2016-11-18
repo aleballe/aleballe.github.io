@@ -14,8 +14,13 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #222222;
+$content-color:    #ffffff;
+$opacity-color:    rgba(255, 255, 255, 0.8);
 $brand-color:      #2a7ae2;
+
+$border-radius:    4px;
+$no-border-radius: 0px;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

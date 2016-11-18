@@ -2,12 +2,20 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background: $opacity-color;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    @include media-query($on-laptop) {
+        border-top-left-radius: $no-border-radius;
+        border-top-right-radius: $no-border-radius;
+    }
 }
 
 .site-title {
@@ -16,10 +24,18 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-transform: lowercase;
+    font-weight:bold;
 
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    img {
+        width:40px;
+        height:auto;
+        border-radius:50px;
     }
 }
 
@@ -45,7 +61,7 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
+        background-color: $content-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -94,6 +110,14 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $opacity-color;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+
+    @include media-query($on-laptop) {
+        border-bottom-left-radius: $no-border-radius;
+        border-bottom-right-radius: $no-border-radius;
+    }
 }
 
 .footer-heading {
@@ -105,6 +129,7 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    margin-bottom: 0;
 }
 
 .footer-col-wrapper {
@@ -163,6 +188,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background: $content-color;
 }
 
 .page-heading {

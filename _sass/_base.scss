@@ -21,6 +21,15 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    background-image: url(../img/coffe-bg.jpg);
+    background-attachment: fixed;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+
+    @include media-query($on-laptop) {
+        margin-top: 0;
+        margin-bottom:0;
+    }
 }
 
 
@@ -154,13 +163,22 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: 800px;
     margin-right: auto;
     margin-left: auto;
+    @extend %clearfix;
+}
+
+/**
+* Padding wrapper
+*/
+.padding-wrapper {
+    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    max-width:         calc(800px - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    @extend %clearfix;
+    margin-right: auto;
+    margin-left: auto;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$spacing-unit}));
@@ -169,7 +187,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /**
