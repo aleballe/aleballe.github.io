@@ -5,7 +5,7 @@ email: alexus.ekman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  My portfolio - the place where I reside on the internet. Welcome! 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://aleballe.github.io" # the base hostname & protocol for your site
 github_username:  aleballe
 img: pic-of-me.jpg
 # Build settings
