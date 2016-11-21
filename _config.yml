@@ -1,9 +1,16 @@
 # Site settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      comments: true
 name: Alexander Ekman
 title: Alexander Ekman
 email: alexus.ekman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- My portfolio - the place where I reside on the internet. Welcome! 
+ My portfolio - the place where I reside on the internet. Welcome!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://aleballe.github.io" # the base hostname & protocol for your site
 github_username:  aleballe
