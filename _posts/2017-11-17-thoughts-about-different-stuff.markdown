@@ -1,12 +1,10 @@
 ---
-layout: post
 title:  "Thoughts about different stuff"
 description: Some thoughs about CSS preprocessors, static site generators, robots.txt, humans.txt and open graph.
 date:   2017-11-17
 categories: css
 img: the-matrix.jpg
 ---
-
 ## CSS preprocessors
 
 Initially when hearing about the CSS preprocessors I was a little bit put off. Yet another tool I have to learn? More dependencies that

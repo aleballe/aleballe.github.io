@@ -1,12 +1,10 @@
 ---
-layout: post
 title:  "Tips to dominate when playing halo"
 description: Become the best halo player you can become! Here's some tips and tricks for total domination in halo.
 date:   2018-11-18
 categories: gaming
 img: masterchief.jpg
 ---
-
 How do you become the very best Halo player you can be?
 
 ## Hit them where it hurts
