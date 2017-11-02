@@ -1,9 +1,12 @@
 ---
-title:  "Tips to dominate when playing halo"
-description: Become the best halo player you can become! Here's some tips and tricks for total domination in halo.
-date:   2018-11-18
+title: Tips to dominate when playing halo
+description: >-
+  Become the best halo player you can become! Here's some tips and tricks for
+  total domination in halo.
+date: {}
 categories: gaming
 img: masterchief.jpg
+published: true
 ---
 How do you become the very best Halo player you can be?
 
@@ -20,7 +23,7 @@ bodies fall to the ground.
 
 Often when I game it's a real struggle, that's until I remember that I have a [plasma pistol][plasma-pistol]. Just charge it properly, point it to an enemy and finish him/her (aliens) off with a headshot. Voila!
 
-## Headshot the grunts
+## Headshot the grunts :)
 
 The grunts are always everywhere and can be a real pain if not handled properly. They are often times quite resilient to firepower
 and you can easily find your self low on ammo if you don't watch yourself. Few things are as unthinkably embarrassing as being defeated by a [little grunt][halo-grunt], so take aim and headshot them. Boom! Mission accomplished.
